@@ -28,5 +28,5 @@ def enter():
         else:
             print("negative numbers can't be prime or composite")
 k=int(input("Enter 1 to start or enter any number to exit: "))
-while k==1:
+while True:
     enter()
